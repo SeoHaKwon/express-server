@@ -3,17 +3,17 @@ const mysql = require('mysql2/promise');
 class dbConnClass {
     constructor() {
         this.dbInfo = mysql.createPool({
-            host: '45.119.145.123',
+            host: '',
             port: 3306,
-            user: 'samadal',
-            password: 'samadal',
-            database: 'projectM',
+            user: '',
+            password: '',
+            database: '',
             multipleStatements: true
         });
     }
 
     /**
-    * ¾ð¾î ÀÔ·Â
+    * Â¾Ã°Â¾Ã® Ã€Ã”Â·Ã‚
     * @param {Object} params
     */
     async getDb() {
