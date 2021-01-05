@@ -6,7 +6,7 @@
     "name": ""
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bitgo": "^4.46.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
